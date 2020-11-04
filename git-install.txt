@@ -1,0 +1,12 @@
+1.进入官网 https://github.com/  创建用户邮箱，账号密码。
+2.使用命令ssh-keygen -t rsa -C "1194347555@qq.com" 创建秘钥，一直按空格即可。
+3.找到 .ssh文件下的.pub后缀文件，cat id_rsa.pub 把公钥导入到网页，添加新的SSH秘钥。
+4.使用ssh -T git@github.com检测是否能连接到github服务器，如看到下面的代码算成功。
+Hi Sevenyang123! You've successfully authenticated, but GitHub does not provide shell access.
+
+二.使用git 常用的命令
+yum -y install git 安装git软件包（也可以官网下载）
+
+
+
+
